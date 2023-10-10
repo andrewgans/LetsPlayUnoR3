@@ -32,7 +32,8 @@ for(i in dat.f){
 dat <- do.call(rbind,dat.l)
 
 dat%>%
-  ggplot()+geom_boxplot(aes(x=activity,y=degC))+facet_grid(.~who) +xlab("Activity Condition")
+  ggplot()+geom_boxplot(aes(x=activity,y=degC))+facet_grid(.~who) +xlab("Activity Condition") +
+  ylab("Axillary Temperature (C)")
 
 ```
 
