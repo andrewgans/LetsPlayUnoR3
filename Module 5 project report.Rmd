@@ -12,11 +12,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
+## Methods
+
 
 ## Results
 ```{r, message = FALSE, echo = FALSE}
 library(tidyverse)
-dat.f <- list.files(pattern = "couch|active.txt") 
+dat.f <- list.files(pattern = "resting|active.txt") 
 
 dat.l <- list() 
 
@@ -30,7 +32,7 @@ for(i in dat.f){
 dat <- do.call(rbind,dat.l)
 
 dat%>%
-  ggplot()+geom_boxplot(aes(x=activity,y=degC))+facet_grid(.~who)
+  ggplot()+geom_boxplot(aes(x=activity,y=degC))+facet_grid(.~who) +xlab("Activity Condition")
 
 ```
 
