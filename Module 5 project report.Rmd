@@ -3,7 +3,7 @@ title: "Project 5"
 author: "LetsPlayUnoR3"
 date: "2023-10-09"
 output: html_document
-bibliography: BIOL3140.bib
+bibliography: Mod5.bib
 ---
 
 ```{r setup, include=FALSE}
