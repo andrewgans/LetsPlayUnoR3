@@ -39,7 +39,7 @@ dat%>%
 
 ```
 
-The figure above shows that the data for the active status of physical activity had an overall lower range of temperatures than the couch status data. Susanne had the greatest decrease in temperature after physical activity, while Stacey and Andrew experienced a less significant drop of temperature. 
+The figure above shows that the data for the active status of physical activity had an overall lower range of temperatures than the resting status data. Susanne had the greatest decrease in temperature after physical activity, while Stacey and Andrew experienced a less significant drop of temperature. 
 
 
 ## Conclusion 
