@@ -3,6 +3,7 @@ title: "Project 5"
 author: "LetsPlayUnoR3"
 date: "2023-10-09"
 output: html_document
+bibliography: BIOL3140.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -33,5 +34,15 @@ dat%>%
 
 ```
 
-## Conclusion 
+The figure above shows
 
+
+## Conclusion 
+In the article, Kenny implies [@Kenny2017] 
+
+## Author's Contribution 
+Susanne found the introduction study and provided explanation connecting to our experiment. 
+Andrew was able to collect the data and convert it into an appropriate figure via code in Rmd
+Stacey explained the results indicated on the figure and included the conclusion study/its explanation. 
+
+#References
