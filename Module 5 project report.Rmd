@@ -13,7 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Introduction
 
 ## Methods
+In order to measure temperature of individuals, a **DS18B20 Temperature Sensor** was used. This sensor was wired through an *Arduino UNO* unit to interface with the data collection software, Arduino IDE.
 
+The resting state was measured once each individual had been sedentary for 10 minutes. Then, the active state was measured after each individual had done 5 minutes of jumping jacks. Each temperature measurement period lasted 100 seconds.
 
 ## Results
 ```{r, message = FALSE, echo = FALSE}
@@ -34,8 +36,8 @@ dat <- do.call(rbind,dat.l)
 dat$activity <- factor(dat$activity, levels = c("resting","active"))
 
 dat%>%
-  ggplot()+geom_boxplot(aes(x=activity,y=degC))+facet_grid(.~who) +xlab("Activity Condition") +
-  ylab("Axillary Temperature (C)")
+  ggplot()+geom_boxplot(aes(x=activity,y=degC, col = activity))+facet_grid(.~who) +xlab("Activity Condition") +
+  ylab("Axillary Temperature (°C)") 
 
 ```
 
