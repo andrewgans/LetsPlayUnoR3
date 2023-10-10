@@ -34,15 +34,15 @@ dat%>%
 
 ```
 
-The figure above shows
+The figure above shows that the data for the active status of physical activity had an overall lower range of temperatures than the couch status data. Susanne had the greatest decrease in temperature after physical activity, while Stacey and Andrew experienced a less significant drop of temperature. 
 
 
 ## Conclusion 
-In the article, Kenny implies [@Kenny2017] 
+In the article, Kenny explains that there's a restoration of thermoregulation post-exercise by returning to the body's normal core temperature as time goes on. The body is triggered to increase heat loss during recovery, as indicated by our data collected before and after conducting physical activity. The combination of losing heat and still having residual heat from the temperature spike led to the general trend of decreased active temperature. [@Kenny2017]
 
 ## Author's Contribution 
-Susanne found the introduction study and provided explanation connecting to our experiment. 
-Andrew was able to collect the data and convert it into an appropriate figure via code in Rmd
-Stacey explained the results indicated on the figure and included the conclusion study/its explanation. 
+- Susanne found the introduction study and provided explanation connecting to our experiment. 
+- Andrew was able to collect the data and convert it into an appropriate figure via code in Rmd
+- Stacey explained the results indicated on the figure and included the conclusion study/its explanation. 
 
-#References
+## References
