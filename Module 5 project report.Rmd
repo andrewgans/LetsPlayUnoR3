@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Introduction
-This project aims to explore the impact of physical activity on human body temperature. A previous study conducted found that increased physical activity can lead to elevated body temperature due to metabolic changes. This project seeks to replicate and extend these findings by collecting and analyzing temperature data using Arduino-based sensors. The investigation will involve comparing body temperature during periods of rest and exercise, with the expectation that the results will help our understanding of how exercise affect human physiology. [@Kenny2003MuscleTemperature]
+This project aims to explore the impact of physical activity on human body temperature. A previous study conducted found that increased physical activity can lead to elevated body temperature due to metabolic changes. This project seeks to replicate and extend these findings by collecting and analyzing temperature data using Arduino-based sensors. The investigation will involve comparing body temperature during periods of rest and exercise, with the expectation that the results will help our understanding of how exercise affect human physiology. [Neves2015]
 
 ## Methods
 In order to measure temperature of individuals, a **DS18B20 Temperature Sensor** was used. This sensor was wired through an *Arduino UNO* unit to interface with the data collection software, Arduino IDE.
